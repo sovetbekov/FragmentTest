@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StyelFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/hello_world"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"
+        android:paddingBottom="12dp"
+        android:layout_marginLeft="100dp"
+        android:text="@string/hello_world"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"  />
+    <Button
+        android:id="@+id/bold_button"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="10sp"
+        android:text="@string/bold_text"
+        app:layout_constraintEnd_toStartOf="@+id/italic_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hello_world" />
+    <Button
+        android:id="@+id/italic_button"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        android:textSize="10sp"
+        android:text="@string/italic_text"
+        app:layout_constraintEnd_toStartOf="@+id/italic_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hello_world" />
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="250dp"
+        android:textSize="10sp"
+        android:text="@string/reset"
+        app:layout_constraintEnd_toStartOf="@+id/reset_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hello_world" />
+
+
+
+
+</FrameLayout>
